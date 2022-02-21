@@ -5,7 +5,7 @@ More info at the official website [Bootcamp](https://frontendmasters.com/bootcam
 ## Courses:
 
 1. [x] [Introduction to html](https://frontendmasters.com/bootcamp/introduction-html/)
-2. [ ] [Introduction to css](https://frontendmasters.com/bootcamp/introduction-css/)
+2. [x] [Introduction to css](https://frontendmasters.com/bootcamp/introduction-css/)
 3. [ ] [HTML Forms](https://frontendmasters.com/bootcamp/html-forms/)
 4. [ ] [Website Embeds & GitHub Pages](https://frontendmasters.com/bootcamp/embeds-github-pages/)
 5. [ ] [Calculator Project: HTML & CSS](https://frontendmasters.com/bootcamp/calculator-html-css/)

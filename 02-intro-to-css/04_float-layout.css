@@ -1,0 +1,90 @@
+/* ============ */
+/* CLEAR */
+/* ============ */
+
+div::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* ============ */
+/* SECTION 1 */
+/* ============ */
+
+.section1 {
+  padding: 2rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.section1 .title {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section1 .image {
+  float: left;
+  margin-right: 1rem;
+  border: 0.1rem solid #666;
+  border-radius: 0.5rem;
+}
+
+.section1 .paragraph {
+  font-size: 1rem;
+}
+
+/* ============ */
+/* SECTION 2 */
+/* ============ */
+
+.section2 {
+  padding: 2rem 0;
+  background-color: #fff;
+}
+
+.section2 .box {
+  width: max-content;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #111;
+  color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0.2rem 0.3rem rgba(1, 1, 1, 0.3);
+}
+
+.section2 .title {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+/* ============ */
+/* SECTION 3 */
+/* ============ */
+
+.section3 {
+  padding: 2rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.section3 .title {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section3 .image {
+  float: right;
+  margin-left: 1rem;
+  border: 0.1rem solid #666;
+  border-radius: 0.5rem;
+}
+
+.section3 .paragraph {
+  font-size: 1rem;
+  text-align: right;
+}
