@@ -1,0 +1,25 @@
+body {
+  font-size: 100%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+div {
+  border: 3px solid black;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.box1 {
+  background-color: rgb(165, 165, 255);
+}
+
+.box2 {
+  background-color: rgb(255, 177, 177);
+}
+
+.box3 {
+  background-color: rgb(173, 255, 173);
+}
