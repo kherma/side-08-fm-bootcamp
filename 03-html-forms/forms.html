@@ -13,7 +13,10 @@
           Fill out the form below to place an order for an alien abduction by
           one of our fine UFOs.
         </p>
-        <form>
+        <form
+          action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES"
+          method="POST"
+        >
           <fieldset>
             <legend>Your contact information</legend>
             <label for="name">Your name</label>
@@ -23,7 +26,6 @@
             <label for="email">Email</label>
             <input type="email" id="email" name="email" />
           </fieldset>
-
           <fieldset>
             <legend>About your abduction</legend>
             <label for="date">Requested date</label>
@@ -57,7 +59,7 @@
               <option value="dance">Alien dance lessons</option>
               <option value="whale">Whale watching</option>
             </select>
-            <label id="comments">Special requests:</label>
+            <label for="comments">Special requests:</label>
             <textarea id="comments" name="comments"></textarea>
             <label for="subscribe">Add me to your email list</label>
             <input
@@ -68,6 +70,8 @@
               checked
             />
           </fieldset>
+          <input type="hidden" name="send_to" value="kamil.herma01@gmail.com" />
+          <button type="submit">Submit</button>
         </form>
       </section>
       <aside>
@@ -78,5 +82,6 @@
         </address>
       </aside>
     </div>
+    <script src="js/forms.js"></script>
   </body>
 </html>
